@@ -4,7 +4,6 @@ function setup(){
   
   angleMode(DEGREES);
   
-  }
 }
 
 function draw(){
@@ -38,6 +37,5 @@ function draw(){
   noStroke();
   textSize(25);
   text(hr + ':' + min+':' + sec , windowWidth*0.457 , windowHeight*0.5 );
-  
-  };
+ 
 }
